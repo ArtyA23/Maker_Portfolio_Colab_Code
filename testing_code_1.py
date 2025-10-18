@@ -53,5 +53,5 @@ def chat_with_model(prompt, max_new_tokens=100, do_sample=True, temperature=1.0,
     return reply
 
 # Example
-prompt = """hey i feel depressed"""
+prompt = """Hey, I'm feeling really down. Why is life so hard?"""
 print(chat_with_model(prompt))
